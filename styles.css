@@ -1,0 +1,125 @@
+body{
+    background: url('pic2.jpg');
+    background-size: cover;
+  }
+
+.first-div{
+    width: 650px;
+    height:620px;
+    background-color:white;
+    margin:auto;
+    margin-top:45px;
+    border-radius:10px;
+    padding-left: 20px;
+}
+
+form{
+    display:flex;
+    gap:10px;
+}
+
+.innerdiv{
+    width: 295px;
+    height:480px;
+    text-align:right;
+}
+
+.innerdiv2{
+    width:295px;
+    height:480px;
+    text-align:left;
+
+}
+.innerdiv,.innerdiv2{
+    flex:1
+}
+
+button{
+    background-color:rgb(79, 165, 245);
+    border:none;
+    border-radius:3px;
+    padding: 5px 10px;
+    color:white;
+}
+
+button:hover{
+    background-color:rgb(161, 204, 241);
+    color:rgb(15, 58, 123);
+}
+
+body{
+    margin:0;
+}
+
+.navig{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    height:60px;
+    background-color:rgb(57, 204, 138);
+}
+.logo p{
+    margin-left:50px;
+}
+.navig a{
+    color:white;
+    margin: 0 15px
+}
+.navig p{
+    display:flex;
+    align-items:center;
+    justify-content:left;
+    color:white;
+}
+
+.sec-div{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:white;
+    height:300px;
+}
+
+.template{
+    background-color:rgb(73, 129, 249);
+    width:258px;
+    height:50px;
+}
+
+.descrip{
+    background-color:rgb(57, 204, 138);
+    height:100px;
+    padding:20px;
+}
+.third-div{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:40px;
+}
+.boxes{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:300px;
+    height:150px;
+    border-radius:3px;
+    margin-right:30px;
+    box-shadow: 5px 5px 15px 0px grey;
+}
+
+#box1{
+    background-color:rgb(255, 182, 193,0.5);
+}
+
+#box2{
+    background-color:rgb(119, 221, 119,0.5);
+}
+
+#box3{
+    background-color:rgba(251, 251, 133, 0.5);
+}
+
+#box4{
+    background-color:rgb(174,198,207,0.5);
+}
